@@ -1,0 +1,48 @@
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+#divItems {
+    max-width: 490px;
+}
+
+#divDisplayItem {
+    margin: 30px auto;
+
+}
+
+.divDisplayItemElement{
+    flex: 1;
+}
+
+#header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 700%;
+    font-family: monospace;
+}
+
+
+.box1 {
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: #212121;
+    padding: .5%;
+}
+
+.box2 {
+    float: right;
+    margin-top: 2%;
+    margin-right: 3%;
+    background-color: #212121;
+    padding: .5%;
+}
+
+.content {
+    margin-top: 5%;
+    margin-left: 2%;
+}

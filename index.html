@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>GenCoffee</title>
+</head>
+<body>
+  
+<div id="header">Generic Coffee</div>
+
+        
+<div class="box1">
+    <button type="button" id="showAll">Show All Orders</button>
+    <input type="text" id="orderSearch" placeholder="Search By Email">
+    <button type="button" id="orderSearchButton">Search Orders</button>
+</div>
+
+
+
+<div class="box2">
+    <select id="menu">
+        <option class="item" value="black">Black Coffee</option>
+        <option class="item" value="blackice">Iced Black Coffee</option>
+        <option class="item" value="kolache">Kolache</option>
+        <option class="item" value="blacknoice">Iced Black Coffee without Ice</option>
+    </select>
+
+    <input type="text" id="userEmail" placeholder="Enter email here...">
+    <button type="button" id="placeOrderButton">Place Order</button>
+</div>
+
+
+
+<div class="allOrdersContainer">
+    <div id="allOrders"></div>
+</div>
+
+
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
